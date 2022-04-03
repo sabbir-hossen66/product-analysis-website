@@ -1,0 +1,22 @@
+.header-container {
+    background-color: rgba(0, 0, 0, 0.798);
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-name {
+    color: white;
+}
+
+.header-container .link-color {
+    text-decoration: none;
+    margin-left: 10px;
+    font-weight: 400;
+    color: white;
+}
+
+.link-color:hover {
+    color: orange;
+}
