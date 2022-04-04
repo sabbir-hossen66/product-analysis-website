@@ -1,0 +1,41 @@
+[
+    {
+        "photo": "./user-1.jpg",
+        "name": "Yolanda Spence",
+        "rating": 4.4,
+        "description": " wow..it's a comfortable chair",
+        "email": "knightcantrell@assistix.com"
+    },
+    {
+        "photo": "./user-2.jpg",
+        "name": "Morris Johnson",
+        "rating": 4,
+        "description": " wow..it's a comfortable chair",
+        "email": "yolandaspence@assistix.com"
+    },
+    {
+        "photo": "./user-3.jpg",
+        "name": "Alisa Clarke",
+        "rating": 4.5,
+        "description": " wow..it's a comfortable chair",
+        "email": "morrisjohnson@assistix.com"
+    },
+    {
+        "name": "Nichole Gilliam",
+        "rating": 4.9,
+        "description": " wow..it's a comfortable chair",
+        "email": "alisaclarke@assistix.com"
+    },
+    {
+        "name": "Bauer Sharp",
+        "rating": 5,
+        "description": " wow..it's a comfortable chair",
+        "email": "nicholegilliam@assistix.com"
+    },
+    {
+        "name": "Bauer Sharp",
+        "rating": 4.2,
+        "description": " wow..it's a comfortable chair",
+        "email": "nicholegilliam@assistix.com"
+    }
+]

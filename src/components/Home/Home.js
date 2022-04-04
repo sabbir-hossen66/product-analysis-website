@@ -1,10 +1,16 @@
 import React from 'react';
 import './Home.css'
 import Image from '../Assets/chair-photo.jpg'
+import UserReview from '../UserReview/UserReview';
+import Review from '../Review/Review';
+
 
 
 
 const Home = () => {
+    const [reviews, setReviews] = UserReview([])
+    const homeReviewData = reviews.slice(0, 3)
+
     return (
         <div>
             <div className='flex-container'>
@@ -20,7 +26,9 @@ const Home = () => {
             </div>
             {/* review */}
             <div className='review-container'>
-
+                {
+                    homeReviewData.map(review => <Review key={review.id} review={review}></Review>)
+                }
             </div>
         </div>
     );
