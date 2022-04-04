@@ -1,20 +1,27 @@
 import React from 'react';
 import './Home.css'
-import '../Assets/black chair.jpg'
+import Image from '../Assets/chair-photo.jpg'
 
 
 
 const Home = () => {
     return (
-        <div className='parent-div'>
-            <div className='explore-product'>
-                <h3>This's Productive <span className='product-color'>Chair</span></h3>
+        <div>
+            <div className='flex-container'>
+                <div className='explore-product'>
+                    <h2>This's Productive <span className='product-color'>Chair</span></h2>
+                    <p>This is  a special Chair.it's looks very beautiful.and every people wants to buy this productive Chair..!!</p>
+
+                </div>
+                <div className='photo-show'>
+                    <img src={Image} alt="" />
+                </div>
 
             </div>
-            <div className='photo-show'>
-                <img src={Image} alt="" />
-            </div>
+            {/* review */}
+            <div className='review-container'>
 
+            </div>
         </div>
     );
 };
