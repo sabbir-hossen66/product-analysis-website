@@ -1,11 +1,14 @@
-.container {
-
-    display: grid;
-    grid-row: inherit;
-
+.photo-size {
+    width: 250px;
+    height: 250px;
+    border: 1px solid palevioletred;
+    border-radius: 5px;
 }
 
-.photo-size {
-    width: 50px;
-    height: 50px;
+.user-container {
+    justify-content: space-evenly;
+    text-align: center;
+    padding-bottom: 15px;
+
+
 }

@@ -21,10 +21,57 @@
 
 }
 
+.main-container {
+    margin-bottom: 80px;
+}
+
 .explore-product p {
     font-weight: 200;
 }
 
 .product-color {
     color: orange
+}
+
+.review-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+
+}
+
+.user-review {
+    text-align: center;
+    margin-bottom: 50px;
+    color: orange;
+    font-family: serif;
+
+}
+
+.review-button {
+    color: white;
+    background-color: black;
+    padding: 9px;
+    border-radius: 5px;
+    font-size: large;
+    text-align: center;
+    border: none;
+    font-weight: 400;
+
+}
+
+.review-button:hover {
+    cursor: pointer;
+    background-color: orange;
+
+}
+
+.review-button:active {
+    background-color: orange;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.button-container {
+    text-align: center;
 }
