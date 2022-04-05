@@ -6,11 +6,21 @@
 }
 
 .user-container {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 10px;
     justify-content: space-evenly;
     text-align: center;
     margin-bottom: 15px;
     border: 2px solid purple;
-    margin: 10px;
 
+    border-radius: 8px;
+
+
+}
+
+.new-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 
 }

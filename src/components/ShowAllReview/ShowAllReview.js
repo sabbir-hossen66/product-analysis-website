@@ -1,9 +1,12 @@
 import React from 'react';
 
 const ShowAllReview = ({ reviews }) => {
+
     const { name, description, rating, photo, email } = reviews;
     return (
+
         <div>
+
             <div className='user-container'>
 
                 <img className='photo-size' src={photo} alt="" />
