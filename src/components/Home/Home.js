@@ -3,7 +3,8 @@ import './Home.css'
 import Image from '../Assets/chair-photo.jpg'
 import UserReview from '../UserReview/UserReview';
 import Review from '../Review/Review';
-import { useNavigate, useNavigationType } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
+
 
 
 
@@ -26,7 +27,7 @@ const Home = () => {
                 </div>
 
             </div>
-            {/* second part */}
+
             <h2 className='user-review'>User Review</h2>
             <div className='review-container'>
                 {
@@ -35,6 +36,7 @@ const Home = () => {
                 }
 
             </div>
+
             <div className='button-container'>
                 <button className='review-button' onClick={() => navigate('/reviews')}> All Reviews </button>
             </div>

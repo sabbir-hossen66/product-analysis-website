@@ -8,7 +8,9 @@
 .user-container {
     justify-content: space-evenly;
     text-align: center;
-    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border: 2px solid purple;
+    margin: 10px;
 
 
 }
