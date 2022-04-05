@@ -26,7 +26,7 @@ const Home = () => {
                 </div>
 
             </div>
-            {/* review */}
+            {/* second part */}
             <h2 className='user-review'>User Review</h2>
             <div className='review-container'>
                 {
@@ -36,7 +36,7 @@ const Home = () => {
 
             </div>
             <div className='button-container'>
-                <button className='review-button' onClick={() => navigate('/reviews')}>Reviews </button>
+                <button className='review-button' onClick={() => navigate('/reviews')}> All Reviews </button>
             </div>
         </div>
     );

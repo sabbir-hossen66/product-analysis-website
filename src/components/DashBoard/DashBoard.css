@@ -1,0 +1,15 @@
+.parent-chart-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+.header-color {
+    color: orange;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.tool-style {
+    color: aqua;
+}
