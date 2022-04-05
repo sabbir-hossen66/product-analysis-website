@@ -10,21 +10,21 @@
         "photo": "./user-2.jpg",
         "name": "Morris Johnson",
         "rating": 4,
-        "description": " wow..it's a comfortable chair",
+        "description": " Excellent..it's a productive chair",
         "email": "yolandaspence@assistix.com"
     },
     {
         "photo": "./user-3.jpg",
         "name": "Alisa Clarke",
         "rating": 4.5,
-        "description": " wow..it's a comfortable chair",
+        "description": " nice..it's look very nice..",
         "email": "morrisjohnson@assistix.com"
     },
     {
         "photo": "./user-4.jpg",
         "name": "Nichole Gilliam",
         "rating": 4.9,
-        "description": " wow..it's a comfortable chair",
+        "description": " guys listen..it's a comfortable chair",
         "email": "alisaclarke@assistix.com"
     },
     {
